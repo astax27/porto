@@ -28,9 +28,6 @@ a {
 }
 
 
-/* =====================================================
-   NAVBAR
-===================================================== */
 
 .navbar {
     position: fixed;
@@ -115,9 +112,6 @@ a {
 }
 
 
-/* =====================================================
-   HERO
-===================================================== */
 
 .hero {
     position: relative;
@@ -159,7 +153,7 @@ a {
 }
 
 
-/* hero content */
+
 
 .hero-content {
     position: relative;
@@ -216,7 +210,7 @@ a {
 }
 
 
-/* button */
+
 
 .hero-button {
     display: inline-flex;
@@ -251,7 +245,7 @@ a {
 }
 
 
-/* decoration */
+
 
 .hero-decoration {
     position: absolute;
@@ -293,7 +287,7 @@ a {
 }
 
 
-/* scroll */
+
 
 .scroll-text {
     position: absolute;
@@ -319,9 +313,7 @@ a {
 }
 
 
-/* =====================================================
-   SECTIONS
-===================================================== */
+
 
 .section {
     position: relative;
@@ -355,9 +347,7 @@ a {
 }
 
 
-/* =====================================================
-   ABOUT
-===================================================== */
+
 
 .about-grid {
     display: grid;
@@ -406,13 +396,6 @@ a {
 }
 
 
-/* =====================================================
-   SKILLS
-===================================================== */
-
-/* =====================================================
-   SKILLS — SMOOTH INTERACTIVE EFFECT
-===================================================== */
 
 .skills-list {
     margin-top: 10px;
@@ -420,9 +403,7 @@ a {
 }
 
 
-/* ===============================
-   SKILL ITEM
-================================ */
+
 
 .skill-item {
     position: relative;
@@ -448,9 +429,7 @@ a {
 }
 
 
-/* ===============================
-   BACKGROUND SLIDE
-================================ */
+
 
 .skill-item::before {
     content: "";
@@ -476,9 +455,7 @@ a {
 }
 
 
-/* ===============================
-   SOFT GLOW
-================================ */
+
 
 .skill-item::after {
     content: "";
@@ -509,17 +486,13 @@ a {
 }
 
 
-/* Semua isi di atas effect */
-
 .skill-item > * {
     position: relative;
     z-index: 2;
 }
 
 
-/* ===============================
-   NUMBER
-================================ */
+
 
 .skill-number {
     color: #383838;
@@ -534,9 +507,7 @@ a {
 }
 
 
-/* ===============================
-   TITLE
-================================ */
+
 
 .skill-item h3 {
     margin: 0 0 8px;
@@ -557,9 +528,7 @@ a {
 }
 
 
-/* ===============================
-   DESCRIPTION
-================================ */
+
 
 .skill-item p {
     margin: 0;
@@ -578,9 +547,7 @@ a {
 }
 
 
-/* ===============================
-   ARROW
-================================ */
+
 
 .skill-arrow {
     justify-self: end;
@@ -602,9 +569,7 @@ a {
 }
 
 
-/* ===============================
-   LEFT ACCENT LINE
-================================ */
+
 
 .skill-item .skill-number::before {
     content: "";
@@ -626,9 +591,7 @@ a {
 }
 
 
-/* =====================================================
-   HOVER
-===================================================== */
+
 
 .skill-item:hover {
 
@@ -652,7 +615,7 @@ a {
 }
 
 
-/* number */
+
 
 .skill-item:hover .skill-number {
 
@@ -668,7 +631,7 @@ a {
 }
 
 
-/* title */
+
 
 .skill-item:hover h3 {
 
@@ -678,7 +641,7 @@ a {
 }
 
 
-/* description */
+
 
 .skill-item:hover p {
 
@@ -688,7 +651,7 @@ a {
 }
 
 
-/* arrow */
+
 
 .skill-item:hover .skill-arrow {
 
@@ -702,9 +665,7 @@ a {
 }
 
 
-/* =====================================================
-   STAGGER EFFECT
-===================================================== */
+
 
 .skill-item:nth-child(1) {
     transition-delay: 0s;
@@ -721,13 +682,6 @@ a {
 .skill-item:nth-child(4) {
     transition-delay: 0.09s;
 }
-/* =====================================================
-   EXPERIENCE
-===================================================== */
-
-/* =====================================================
-   EXPERIENCE
-===================================================== */
 
 .experience-grid {
     display: grid;
@@ -736,7 +690,7 @@ a {
 }
 
 
-/* LEFT */
+
 
 .experience-title {
     transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
@@ -754,7 +708,6 @@ a {
 }
 
 
-/* RIGHT */
 
 .experience-content {
     position: relative;
@@ -777,7 +730,7 @@ a {
 }
 
 
-/* subtle light that appears on hover */
+
 
 .experience-content::before {
     content: "";
@@ -804,7 +757,7 @@ a {
 }
 
 
-/* big number */
+
 
 .experience-number {
     position: relative;
@@ -825,7 +778,7 @@ a {
 }
 
 
-/* duration */
+
 
 .experience-duration {
     position: relative;
@@ -842,7 +795,6 @@ a {
 }
 
 
-/* company */
 
 .experience-content h3 {
     position: relative;
@@ -859,7 +811,7 @@ a {
 }
 
 
-/* description */
+
 
 .experience-content > p:not(.experience-duration) {
     position: relative;
@@ -878,7 +830,7 @@ a {
 }
 
 
-/* bottom line */
+
 
 .experience-line {
     position: relative;
@@ -895,7 +847,7 @@ a {
 }
 
 
-/* animated line */
+
 
 .experience-line::after {
     content: "";
@@ -915,9 +867,7 @@ a {
 }
 
 
-/* =====================================================
-   EXPERIENCE HOVER
-===================================================== */
+
 
 .experience-content:hover {
 
@@ -975,9 +925,7 @@ a {
     width: 100%;
 }
 
-/* =====================================================
-   CERTIFICATES
-===================================================== */
+
 
 .certificate-header {
     margin-bottom: 70px;
@@ -1083,9 +1031,7 @@ a {
     letter-spacing: 2px;
 }
 
-/* ================================
-   CERTIFICATE HOVER EFFECT
-================================ */
+
 
 .certificate-wrapper {
     position: relative;
@@ -1098,7 +1044,7 @@ a {
 
 
 
-/* garis animasi dari kanan ke kiri */
+
 .certificate-wrapper::after {
     content: "";
     position: absolute;
@@ -1144,9 +1090,7 @@ a {
 
 
 
-/* =====================================================
-   CONTACT
-===================================================== */
+
 
 .contact {
     min-height: 80vh;
@@ -1219,9 +1163,6 @@ a {
 }
 
 
-/* =====================================================
-   FOOTER
-===================================================== */
 
 footer {
     display: flex;
@@ -1240,9 +1181,7 @@ footer {
 }
 
 
-/* =====================================================
-   SCROLL ANIMATION
-===================================================== */
+
 
 .reveal {
     opacity: 0;
@@ -1266,7 +1205,7 @@ footer {
 }
 
 
-/* LEFT */
+
 
 .reveal-left {
     opacity: 0;
@@ -1290,7 +1229,7 @@ footer {
 }
 
 
-/* RIGHT */
+
 
 .reveal-right {
     opacity: 0;
@@ -1314,9 +1253,6 @@ footer {
 }
 
 
-/* =====================================================
-   MOBILE
-===================================================== */
 
 @media (max-width: 800px) {
 
@@ -1393,30 +1329,7 @@ footer {
 }
 
 
-/* HERO CONTENT SHOULD ALWAYS APPEAR */
 
-/* .hero .reveal {
-    opacity: 1;
-    transform: translateY(0);
-    filter: blur(0);
-}
-
-.hero .reveal-left {
-    opacity: 1;
-    transform: translateX(0);
-    filter: blur(0);
-}
-
-.hero .reveal-right {
-    opacity: 1;
-    transform: translateX(0);
-    filter: blur(0);
-} */
-
-
-/* ================================
-   SMALL TEXT SIZE
-================================ */
 
 .eyebrow {
     font-size: 14px;
@@ -1480,9 +1393,7 @@ footer {
     letter-spacing: 3px;
 }
 
-/* =================================
-   EXPERIENCE - LARGER TEXT
-================================= */
+
 
 .experience-top {
     font-size: 14px;
@@ -1676,7 +1587,7 @@ footer {
     padding-top: 60px;
 }
 
-/* SECTION SPACING */
+
 #skills {
     padding-top: 60px;
     padding-bottom: 80px;
@@ -1802,9 +1713,7 @@ footer {
     }
 }
 
-/* =========================
-   NAVBAR INTRO ANIMATION
-========================= */
+*/
 
 .navbar {
     animation: navbarReveal 1s cubic-bezier(0.22, 1, 0.36, 1) 0.1s both;
@@ -1822,9 +1731,7 @@ footer {
     }
 }
 
-/* ================================
-   CERTIFICATE - SMALLER
-================================ */
+
 
 #certificates {
     padding-left: 10vw;
@@ -1845,9 +1752,7 @@ footer {
     gap: 40px;
 }
 
-/* ================================
-   SCROLL PROGRESS
-================================ */
+
 
 .scroll-progress {
     position: fixed;
@@ -1860,9 +1765,7 @@ footer {
     transition: width 0.05s linear;
 }
 
-/* ================================
-   ABOUT META HOVER
-================================ */
+
 
 .about-meta-item {
     position: relative;
@@ -1872,7 +1775,7 @@ footer {
         padding 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-/* garis kecil di bagian atas */
+
 .about-meta-item::before {
     content: "";
     position: absolute;
@@ -1889,13 +1792,13 @@ footer {
     width: 100%;
 }
 
-/* background sangat subtle */
+
 .about-meta-item:hover {
     background: rgba(255, 255, 255, 0.025);
     padding-left: 25px;
 }
 
-/* label */
+
 .about-meta-item span {
     transition:
         color 0.4s ease,
@@ -1907,7 +1810,7 @@ footer {
     letter-spacing: 3.5px;
 }
 
-/* value */
+
 .about-meta-item strong {
     display: inline-block;
     transition:
